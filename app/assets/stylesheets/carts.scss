@@ -28,6 +28,10 @@
       border-top: solid thin;
     }
   }
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
   button {
     background-color: #881;
     border-radius: 0.354em;
@@ -38,5 +42,13 @@
   }
   button:hover {
     background-color: #992;
+  }
+  button:last-child {
+    margin-left: 5px;
+    color: black;
+    background-color: #bfb;
+  }
+  button:last-child:hover {
+    background-color: #9d9;
   }
 }
