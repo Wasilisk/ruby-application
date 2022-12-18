@@ -25,6 +25,7 @@ header.main {
   display: flex;
   align-items: center;
 
+  justify-content: space-between;
   padding: 8px;
 
   @media (min-width: 30em) {
@@ -38,6 +39,11 @@ header.main {
     color: white;
     padding: 0;
     margin: 0 10px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -226,4 +232,9 @@ nav.logged_in_nav {
   button:hover {
     color: white;
   }
+}
+
+.locale {
+  float: right;
+  margin: 1em;
 }

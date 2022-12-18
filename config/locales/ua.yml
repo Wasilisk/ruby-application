@@ -1,0 +1,59 @@
+ua:
+  layouts:
+    application:
+      title: "Books Online Store"
+      home: "Головна"
+      questions: "Запитання"
+      news: "Новини"
+      contact: "Контакти"
+  store:
+    index:
+      title_html: "Онлайн магазин книг"
+      add_html: "Додати до корзини"
+  carts:
+    cart:
+      title: "Ваша корзина"
+      empty: "Очистити"
+      checkout: "Розрахунок"
+  orders:
+    new:
+      legend: "Введіть деталі замовлення"
+    form:
+      name: "Ім'я"
+      address_html: "Адрес"
+      email: "Пошта"
+      pay_type: "Оплата:"
+      pay_prompt_html: "Виберіть метод оплати"
+      submit: "Замовити"
+      pay_types:
+        check: "Готівка"
+        credit_card: "Кредитна картка"
+        purchase_order: "Замовлення на доставку"
+      check_pay_type:
+        routing_number: "Роутинг #"
+        account_number: "Аккаунт #"
+      credit_card_pay_type:
+        cc_number: "CC #"
+        expiration_date: "Термін дії карти"
+      purchase_order_pay_type:
+        po_number: "PO #"
+  activerecord:
+    errors:
+      messages:
+        inclusion: "не вибраний зі списку"
+        blank: "не може бути пустим"
+    models:
+      order: "замовлення"
+    attributes:
+      order:
+        address: "Адреса"
+        name: "Ім'я"
+        email: "Пошта"
+        pay_type: "Спосіб оплати"
+  errors:
+    template:
+      body: "Є проблеми з наступними полями:"
+      header:
+        one: "1 помилка не дозволяє завершити дію"
+        other: "%{count} помилки не дозволяють завершити дію"
+  thanks: "Дякуємо за замовлення"
